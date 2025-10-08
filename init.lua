@@ -13,7 +13,5 @@ vim.opt.rtp:prepend(lazypath)
 vim.opt.number = true
 vim.lsp.set_log_level("error")
 
-local opts = {}
-
 require("vim-options")
 require("lazy").setup("plugins")
