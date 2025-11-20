@@ -22,8 +22,8 @@ return {
 				git_status_info = true,
 				filtered_items = {
 					visible = true,
-					hide_dotfiles = false, 
-					hide_gitignored = false, 
+					hide_dotfiles = false,
+					hide_gitignored = false,
 				},
 				window = {
 					open_files_in = "current_window",

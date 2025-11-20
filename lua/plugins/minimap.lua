@@ -7,7 +7,7 @@ return {
 			minimap_width = 10,
 			use_lsp_diagnostics = true,
 			relative = "editor",
-      width_multiplier = 1,
+			width_multiplier = 1,
 		})
 
 		-- Toggle with <leader>m

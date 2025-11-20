@@ -1,16 +1,15 @@
 return {
-  "brianhuster/live-preview.nvim",
-  ft = { "html" },
-  cmd = { "LivePreview" },
+	"brianhuster/live-preview.nvim",
+	ft = { "html" },
+	cmd = { "LivePreview" },
 
-  keys = {
-    {
-      "<leader>s",
-      "<cmd>LivePreview<cr>",
-      desc = "Start Live Preview",
-    },
-  },
+	keys = {
+		{
+			"<leader>s",
+			"<cmd>LivePreview<cr>",
+			desc = "Start Live Preview",
+		},
+	},
 
-  config = function()
-  end,
+	config = function() end,
 }

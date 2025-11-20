@@ -24,7 +24,12 @@ return {
 		"windwp/nvim-autopairs",
 		event = "InsertEnter", -- Load only when entering insert mode
 		config = function()
-			require("nvim-autopairs").setup()
+            local npairs = require("nvim-autopairs")
+			local Rule = require("nvim-autopairs.rule")
+
+			npairs.setup()
+
+			npairs.add_rule(Rule("<", ">"))
 		end,
 	},
 	{

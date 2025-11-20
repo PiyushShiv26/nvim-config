@@ -1,4 +1,3 @@
 return {
-  "echasnovski/mini.bufremove",
+	"echasnovski/mini.bufremove",
 }
-
